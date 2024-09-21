@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/mulish-v13-latin-regular.woff2') format('woff2')
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/mulish-v13-latin-600.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/mulish-v13-latin-700.woff2') format('woff2'); 
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.active{
+    background-color: rgba(159, 162, 180, .08);
+    color:#DDE2FF
+}
+
+.active::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #DDE2FF;
+    height: 100%;
+}
+
+
+/* Overview unresolved tickets */
+.unresolved-ticket-item{
+    border-bottom: 1px solid #DFE0EB;
+}
+.unresolved-ticket-item:last-child{
+    border: none;
+}
+
+/* Todo */
+.todo-form{
+    border-bottom: 1px solid #DFE0EB;
+}
+.todo-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.todo-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.todo-item{
+    border-bottom: 1px solid #DFE0EB;
+}
+.todo-item:last-child{
+    border: none;
+}

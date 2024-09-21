@@ -1,0 +1,75 @@
+.overview-top-box{
+    background-color: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    font-size: 19px;
+    line-height: 23.84px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    max-width: 258px;
+    width: 100%;
+    padding-block: 24px;
+    border-radius: 8px;
+    transition: all .3s ease;
+}
+.overview-top-box p{
+    font-size: 19px;
+    line-height: 23.84px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color: #9FA2B4;
+    font-weight: bold;
+}
+.overview-top-box span{
+    font-size: 40px;
+    line-height: 50.2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 12px;
+    color: #252733;
+    font-weight: bold;
+    
+}
+
+.overview-top-box:hover{
+    cursor: pointer;
+    border-color: #3751FF;
+}
+.overview-top-box:hover > span, .overview-top-box:hover > p {
+    color: #3751FF;
+}
+
+/* Trend */
+
+.overview-trend-box{
+    max-width: 342px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid #DFE0EB;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.overview-trend-box{
+    border-bottom: 1px solid #DFE0EB;
+}
+.overview-trend-box:last-child{
+    border-bottom: none;
+}
+
+.overview-trend-box p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.30000001192092896px;
+    font-weight: 700;
+    color: #9FA2B4;
+}
+.overview-trend-box span{
+    margin-top: 6px;
+    font-size: 24px;
+    line-height: 30.12px;
+    letter-spacing: 0.30000001192092896px;
+    color: #252733;
+    font-weight: bold;
+}
